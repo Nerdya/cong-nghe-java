@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5799b3da-1826-4c48-8628-55c091b202df" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cong-nghe-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt20032023/bai1/HoDan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt20032023/bai1/KhuPho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt20032023/bai1/Nguoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt20032023/bai3/DanhSach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt20032023/bai3/HocVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt27022023/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt27022023/Bai3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt27022023/Bai5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong3/Bao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong3/QuanLySach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong3/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong3/TaiLieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong3/TapChi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong4/Checkbox.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong4/Checkbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong4/LoginForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong4/LoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt1/BienLai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt1/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt1/QuanLyBienLai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/Danh_Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/HocVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2_2/Danh_Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2_2/Sach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2_2/TaiLieu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shared/SharedMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shared/SimpleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shared/SortOrder.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LMAW9hMtE3x6DfIiKwjyOLjHq6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Study/UNETI/Java/cong-nghe-java/src/com/kt2_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\kt2_2" />
+      <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\kt2" />
+      <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\shared" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kt1" />
+      <recent name="com.chuong3" />
+      <recent name="com.bt27022023" />
+      <recent name="" />
+      <recent name="com.shared" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LoginForm">
+    <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt27022023.Bai5" />
+      <module name="cong-nghe-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bt27022023.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DanhSach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt20032023.bai3.DanhSach" />
+      <module name="cong-nghe-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bt20032023.bai3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KhuPho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt20032023.bai1.KhuPho" />
+      <module name="cong-nghe-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bt20032023.bai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuong4.LoginForm" />
+      <module name="cong-nghe-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuong4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuanLyBienLai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kt1.QuanLyBienLai" />
+      <module name="cong-nghe-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kt1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginForm" />
+        <item itemvalue="Application.DanhSach" />
+        <item itemvalue="Application.KhuPho" />
+        <item itemvalue="Application.QuanLyBienLai" />
+        <item itemvalue="Application.Bai5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5799b3da-1826-4c48-8628-55c091b202df" name="Changes" comment="" />
+      <created>1675670609858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675670609858</updated>
+      <workItem from="1675670611905" duration="1190000" />
+      <workItem from="1677485558492" duration="6868000" />
+      <workItem from="1678093885727" duration="4188000" />
+      <workItem from="1678680476281" duration="536000" />
+      <workItem from="1678694726671" duration="5516000" />
+      <workItem from="1678766133659" duration="14000" />
+      <workItem from="1679101502583" duration="343000" />
+      <workItem from="1679102928356" duration="696000" />
+      <workItem from="1679278852621" duration="180000" />
+      <workItem from="1679299722203" duration="7342000" />
+      <workItem from="1679904754739" duration="5833000" />
+      <workItem from="1680509428923" duration="188000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
