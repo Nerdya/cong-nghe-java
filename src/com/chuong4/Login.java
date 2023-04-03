@@ -1,23 +1,27 @@
 package com.chuong4;
 
+import java.awt.*;
 import javax.swing.*;
 
-public class Login {
-
+public class Login extends JFrame {
   public JPanel panelMain;
-  public JTextField textField1;
-  public JPasswordField passwordField1;
-  public JButton OKButton;
+  public JTextField tfUsername;
+  public JPasswordField tfPassword;
+  public JButton btnLogin;
+  private JButton btnClear;
 
   public Login() {
-    OKButton.addActionListener(e -> {
-      String username = textField1.getText();
-      String password = new String(passwordField1.getPassword());
-      if (username.toLowerCase().equals("admin") && password.toLowerCase().equals("uneti")) {
+    btnLogin.addActionListener(e -> {
+      String username = this.tfUsername.getText();
+      String password = new String(this.tfPassword.getPassword());
+      if (username.equals("cnttuneti") && password.equals("123456")) {
         JOptionPane.showMessageDialog(null, "Login successful!");
       } else {
         JOptionPane.showMessageDialog(null, "Wrong username or password!");
       }
+    });
+    btnClear.addActionListener(e -> {
+      JFrame frame = new JFrame();
     });
   }
 }

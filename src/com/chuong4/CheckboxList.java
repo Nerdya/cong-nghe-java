@@ -3,7 +3,7 @@ package com.chuong4;
 import java.awt.*;
 import javax.swing.*;
 
-public class CheckboxList extends JPanel {
+public class CheckboxList extends JFrame {
   private JPanel panel1;
   private JCheckBox checkBox1CheckBox;
   private JCheckBox cb2;

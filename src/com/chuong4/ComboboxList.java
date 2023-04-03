@@ -1,14 +1,13 @@
 package com.chuong4;
 
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import java.awt.*;
+import javax.swing.*;
 
 /**
  * @author cuongnk
  * @since 03/04/2023
  */
-public class ComboboxList {
+public class ComboboxList extends JFrame {
 
   private JComboBox comboBox1;
   private JPanel panel1;

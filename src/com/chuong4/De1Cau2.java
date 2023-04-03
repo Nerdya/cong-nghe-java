@@ -8,11 +8,11 @@ import javax.swing.JFrame;
  */
 public class De1Cau2 {
   public static void main(String[] args) {
-    JFrame frame = new JFrame("LoginForm");
+    JFrame frame = new JFrame("Login");
     frame.setContentPane(new Login().panelMain);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.pack();
-    frame.setSize(800, 450);
+    frame.setSize(400, 225);
     frame.setVisible(true);
   }
 }
