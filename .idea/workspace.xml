@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5799b3da-1826-4c48-8628-55c091b202df" name="Changes" comment="CheckboxList">
+      <change afterPath="$PROJECT_DIR$/src/com/chuong4/ComboboxList.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong4/ComboboxList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong4/De1Cau2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong4/SolveTask.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chuong4/SolveTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chuong4/CheckboxList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chuong4/CheckboxList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chuong4/LoginForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chuong4/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chuong4/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chuong4/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +49,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,20 +67,7 @@
       <recent name="com.shared" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckboxList">
-    <configuration name="CheckboxList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chuong4.CheckboxList" />
-      <module name="cong-nghe-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chuong4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.De1Cau2">
     <configuration name="DanhSach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bt20032023.bai3.DanhSach" />
       <module name="cong-nghe-java" />
@@ -87,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KhuPho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bt20032023.bai1.KhuPho" />
+    <configuration name="De1Cau2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuong4.De1Cau2" />
       <module name="cong-nghe-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bt20032023.bai1.*" />
+          <option name="PATTERN" value="com.chuong4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuanLyBienLai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kt1.QuanLyBienLai" />
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuong4.Login" />
       <module name="cong-nghe-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kt1.*" />
+          <option name="PATTERN" value="com.chuong4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,8 +107,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.chuong4.LoginForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chuong4.LoginForm" />
+    <configuration name="com.chuong4.CheckboxList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuong4.CheckboxList" />
+      <module name="cong-nghe-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuong4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.chuong4.ComboboxList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuong4.ComboboxList" />
       <module name="cong-nghe-java" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckboxList" />
+        <item itemvalue="Application.De1Cau2" />
+        <item itemvalue="Application.com.chuong4.ComboboxList" />
+        <item itemvalue="Application.com.chuong4.CheckboxList" />
         <item itemvalue="Application.com.chuong4.LoginForm" />
         <item itemvalue="Application.DanhSach" />
-        <item itemvalue="Application.KhuPho" />
-        <item itemvalue="Application.QuanLyBienLai" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +162,7 @@
       <workItem from="1679278852621" duration="180000" />
       <workItem from="1679299722203" duration="7342000" />
       <workItem from="1679904754739" duration="5833000" />
-      <workItem from="1680509428923" duration="4138000" />
+      <workItem from="1680509428923" duration="5861000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1680509706613</created>
@@ -171,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680513458257</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CheckboxList">
+      <created>1680513598464</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680513598464</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
