@@ -15,19 +15,18 @@ public class CheckboxList extends JPanel {
   private JCheckBox cb8;
 
   public CheckboxList() {
-    int i = 0;
+    int i = 1;
     for (Component comp : panel1.getComponents()) {
       if (comp instanceof JCheckBox) {
         JCheckBox checkBox = (JCheckBox) comp;
-        int finalI = i;
+        checkBox.setText("Checkbox" + i);
         checkBox.addActionListener(e -> {
-          checkBox.setText("Checkbox" + finalI);
           if (checkBox.isSelected()) {
             JOptionPane.showMessageDialog(null, checkBox.getText());
           }
         });
+        i++;
       }
-      i++;
     }
   }
 
