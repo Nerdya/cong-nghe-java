@@ -8,11 +8,11 @@ import java.sql.Statement;
 
 public class TestConnection {
 
-  private Connection con;
+  public final Connection con;
 
   public TestConnection() throws ClassNotFoundException, SQLException {
     Class.forName("com.mysql.jdbc.Driver"); // nap trinh dieu khien
-    Connection con = DriverManager.getConnection(
+    con = DriverManager.getConnection(
         "jdbc:mysql://localhost:3306/userinfo", "root", "1qazXSW@2020");
     // thuc hien ket noi
   }

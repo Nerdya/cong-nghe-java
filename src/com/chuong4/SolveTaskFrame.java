@@ -21,10 +21,9 @@ public class SolveTaskFrame extends JFrame {
 
   public SolveTaskFrame() {
     setTitle("GIẢI QUYẾT CÔNG VIỆC");
+    setSize(400, 225);
+    setLocationRelativeTo(null);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//    setLocationRelativeTo(null);
     setContentPane(mainPanel);
-    pack();
-    setSize(400, 300);
   }
 }
