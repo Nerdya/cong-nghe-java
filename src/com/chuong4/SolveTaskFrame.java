@@ -9,6 +9,15 @@ import javax.swing.*;
 public class SolveTaskFrame extends JFrame {
 
   private JPanel mainPanel;
+  private JTextField textField1;
+  private JRadioButton factorizeRadio;
+  private JRadioButton sumRadio;
+  private JRadioButton primeNumberRadio;
+  private JRadioButton perfectNumberRadio;
+  private JTextField textField2;
+  private JButton submitButton;
+  private JButton continueButton;
+  private JButton exitButton;
 
   public SolveTaskFrame() {
     setTitle("GIẢI QUYẾT CÔNG VIỆC");
@@ -16,6 +25,6 @@ public class SolveTaskFrame extends JFrame {
 //    setLocationRelativeTo(null);
     setContentPane(mainPanel);
     pack();
-    setSize(400, 225);
+    setSize(400, 300);
   }
 }
