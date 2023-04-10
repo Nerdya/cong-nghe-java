@@ -23,29 +23,20 @@ public class LoginFrame extends JFrame {
       String username = this.usernameField.getText();
       String password = new String(this.passwordField.getPassword());
       try {
-        boolean found = false;
         TestConnection testConnection = new TestConnection();
         Statement statement = testConnection.con.createStatement();
         String sql =
             "SELECT * FROM user WHERE username = '" + username + "' AND password = '" + password
                 + "'";
         ResultSet resultSet = statement.executeQuery(sql);
-
-        while (resultSet.next()) {
-          if (!resultSet.wasNull()) {
-            found = true;
-            break;
-          }
-          System.out.println(resultSet.wasNull());
-        }
-
-        if (found) {
-          System.out.println(resultSet);
+        resultSet.next();
+        if (!resultSet.wasNull()) {
+          JOptionPane.showMessageDialog(null, "Đăng nhập thành công!");
           setVisible(false);
           SolveTaskFrame solveTaskFrame = new SolveTaskFrame();
           solveTaskFrame.setVisible(true);
         } else {
-          JOptionPane.showMessageDialog(null, "Wrong username or password!");
+          JOptionPane.showMessageDialog(null, "Sai tên tài khoản hoặc mật khẩu!");
         }
       } catch (ClassNotFoundException | SQLException ex) {
         throw new RuntimeException(ex);
