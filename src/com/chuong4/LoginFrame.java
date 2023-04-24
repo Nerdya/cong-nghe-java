@@ -33,8 +33,10 @@ public class LoginFrame extends JFrame {
         if (!resultSet.wasNull()) {
           JOptionPane.showMessageDialog(null, "Đăng nhập thành công!");
           setVisible(false);
-          SolveTaskFrame solveTaskFrame = new SolveTaskFrame();
-          solveTaskFrame.setVisible(true);
+//          SolveTaskFrame solveTaskFrame = new SolveTaskFrame();
+//          solveTaskFrame.setVisible(true);
+          StudentManagerFrame studentManagerFrame = new StudentManagerFrame();
+          studentManagerFrame.setVisible(true);
         } else {
           JOptionPane.showMessageDialog(null, "Sai tên tài khoản hoặc mật khẩu!");
         }
