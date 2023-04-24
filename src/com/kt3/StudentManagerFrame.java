@@ -19,6 +19,7 @@ public class StudentManagerFrame extends JFrame {
   private JButton deleteButton;
   private JButton updateButton;
   private JTable studentTable;
+
   public StudentManagerFrame() {
     initFrame();
     initTable();

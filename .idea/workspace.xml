@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5799b3da-1826-4c48-8628-55c091b202df" name="Changes" comment="kt3">
-      <change beforePath="$PROJECT_DIR$/src/com/kt3/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kt3/DatabaseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kt3/StudentManagerFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kt3/StudentManagerFrame.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kt3/StudentManagerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kt3/StudentManagerFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +186,7 @@
       <workItem from="1681719013800" duration="4577000" />
       <workItem from="1681802504347" duration="30000" />
       <workItem from="1682307800280" duration="1961000" />
-      <workItem from="1682324726585" duration="5298000" />
+      <workItem from="1682324726585" duration="5959000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1680509706613</created>
@@ -264,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682329844049</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="kt3">
+      <created>1682330081286</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682330081287</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
