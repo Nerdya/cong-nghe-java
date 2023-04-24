@@ -59,7 +59,7 @@ public class DatabaseUtils {
   }
 
   public static void deleteStudent(String maSinhVien) {
-    String query = "DELETE FROM sinhvien WHERE MaSinhVien = " + maSinhVien;
+    String query = "DELETE FROM sinhvien WHERE MaSinhVien = '" + maSinhVien + "'";
 
     try (Connection connection = getConnection();
         Statement statement = connection.createStatement()) {
