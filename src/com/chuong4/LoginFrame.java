@@ -1,6 +1,5 @@
 package com.chuong4;
 
-import com.testconnection.TestConnection;
 import java.sql.*;
 import javax.swing.*;
 
@@ -23,8 +22,8 @@ public class LoginFrame extends JFrame {
       String username = this.usernameField.getText();
       String password = new String(this.passwordField.getPassword());
       try {
-        TestConnection testConnection = new TestConnection();
-        Statement statement = testConnection.con.createStatement();
+        UserInfoConnection userInfoConnection = new UserInfoConnection();
+        Statement statement = userInfoConnection.con.createStatement();
         String sql =
             "SELECT * FROM user WHERE username = '" + username + "' AND password = '" + password
                 + "'";

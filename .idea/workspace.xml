@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5799b3da-1826-4c48-8628-55c091b202df" name="Changes" comment="De1Cau2">
+      <change afterPath="$PROJECT_DIR$/src/com/kt3/Cau5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt3/DatabaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt3/StudentManagerFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt3/StudentManagerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chuong4/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chuong4/LoginFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testconnection/TestConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chuong4/UserInfoConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Study/UNETI/Java/cong-nghe-java/src/mysql-connector-java-8.0.29.jar",
+    "last_opened_file_path": "D:/Study/UNETI/Java/cong-nghe-java/src/com/kt3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,29 +66,45 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\kt3" />
       <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\kt2_2" />
       <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\kt2" />
       <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\shared" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\kt3" />
+      <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\chuong4" />
       <recent name="D:\Study\UNETI\Java\cong-nghe-java\src" />
       <recent name="D:\Study\UNETI\Java\cong-nghe-java\src\com\mysql\jdbc\Driver" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kt3" />
       <recent name="com.tuan" />
       <recent name="com.kt1" />
       <recent name="com.chuong3" />
       <recent name="com.bt27022023" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.chuong4.De1Cau2">
+  <component name="RunManager" selected="Application.com.kt3.Cau5">
+    <configuration name="Cau5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kt3.Cau5" />
+      <module name="cong-nghe-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuong4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckboxList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chuong4.CheckboxList" />
       <module name="cong-nghe-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testconnection.*" />
+          <option name="PATTERN" value="com.chuong4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,7 +117,7 @@
       <module name="cong-nghe-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testconnection.*" />
+          <option name="PATTERN" value="com.chuong4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,7 +143,7 @@
       <module name="cong-nghe-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testconnection.*" />
+          <option name="PATTERN" value="com.chuong4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,16 +152,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.com.chuong4.De1Cau2" />
+      <item itemvalue="Application.com.kt3.Cau5" />
       <item itemvalue="Application.com.chuong4.CheckboxList" />
       <item itemvalue="Application.com.chuong4.ComboboxList" />
+      <item itemvalue="Application.com.chuong4.De1Cau2" />
       <item itemvalue="Application.DanhSach" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.kt3.Cau5" />
         <item itemvalue="Application.com.chuong4.De1Cau2" />
-        <item itemvalue="Application.com.chuong4.CheckboxList" />
-        <item itemvalue="Application.com.chuong4.ComboboxList" />
         <item itemvalue="Application.DanhSach" />
       </list>
     </recent_temporary>
@@ -165,7 +189,12 @@
       <workItem from="1680577019606" duration="1718000" />
       <workItem from="1680581540104" duration="1922000" />
       <workItem from="1680590324312" duration="1217000" />
-      <workItem from="1681114100684" duration="6553000" />
+      <workItem from="1681114100684" duration="7071000" />
+      <workItem from="1681121983173" duration="8000" />
+      <workItem from="1681719013800" duration="4577000" />
+      <workItem from="1681802504347" duration="30000" />
+      <workItem from="1682307800280" duration="1961000" />
+      <workItem from="1682324726585" duration="4992000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1680509706613</created>
@@ -223,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681121117469</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="De1Cau2">
+      <created>1681121446140</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681121446140</updated>
+    </task>
+    <task id="LOCAL-00010" summary="De1Cau2">
+      <created>1682324965155</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682324965156</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

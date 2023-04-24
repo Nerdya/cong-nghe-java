@@ -1,16 +1,12 @@
-package com.testconnection;
+package com.chuong4;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
-public class TestConnection {
+public class UserInfoConnection {
 
   public final Connection con;
 
-  public TestConnection() throws ClassNotFoundException, SQLException {
+  public UserInfoConnection() throws ClassNotFoundException, SQLException {
     Class.forName("com.mysql.cj.jdbc.Driver"); // nap trinh dieu khien
     con = DriverManager.getConnection(
         "jdbc:mysql://localhost:3306/userinfo", "root", "1qazXSW@2020");
