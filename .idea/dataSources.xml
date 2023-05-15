@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="qllh@localhost" uuid="13f682f9-4a48-43ca-b41e-bd33b8fa1657">
+    <data-source source="LOCAL" name="qlnv@localhost" uuid="77346da4-880b-469a-96d1-382eb64f67e3">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/qllh</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/qlnv</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
