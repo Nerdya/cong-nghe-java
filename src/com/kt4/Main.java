@@ -6,7 +6,7 @@ package com.kt4;
  */
 public class Main {
   public static void main(String[] args) {
-    EmployeeManagerFrame employeeManagerFrame = new EmployeeManagerFrame();
-    employeeManagerFrame.setVisible(true);
+    AdminFrame adminFrame = new AdminFrame();
+    adminFrame.setVisible(true);
   }
 }

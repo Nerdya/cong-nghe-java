@@ -5,6 +5,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JRadioButton;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
@@ -13,20 +14,21 @@ import javax.swing.table.DefaultTableModel;
  * @author cuongnk
  * @since 13/05/2023
  */
-public class EmployeeManagerFrame extends JFrame {
+public class EmployeeSearchFrame extends JFrame {
 
   private JPanel mainPanel;
   private JTextField textField1;
   private JTextField textField2;
   private JTextField textField3;
   private JTextField textField4;
-  private JButton addButton;
-  private JButton updateButton;
-  private JButton deleteButton;
+  private JRadioButton byHoTenRadioButton;
+  private JRadioButton byQueQuanRadioButton;
+  private JRadioButton byHeSoLuongRadioButton;
+  private JButton searchButton;
   private JButton toAdminButton;
   private JTable table1;
 
-  public EmployeeManagerFrame() {
+  public EmployeeSearchFrame() {
     initFrame();
     initTable();
     initListeners();
@@ -73,15 +75,9 @@ public class EmployeeManagerFrame extends JFrame {
 
   private void initListeners() {
     // Add onClick listener to the updateButton
-    addButton.addActionListener(e -> addEmployee());
+    searchButton.addActionListener(e -> searchEmployee());
 
-    // Add onClick listener to the updateButton
-    updateButton.addActionListener(e -> updateEmployee());
-
-    // Add onClick listener to the deleteButton
-    deleteButton.addActionListener(e -> deleteEmployee());
-
-    // Add onClick listener to the toAdminButton
+    // Add onClick listener to the exitButton
     toAdminButton.addActionListener(e -> toAdmin());
 
     // Add onClick listener to the studentTable
@@ -99,47 +95,52 @@ public class EmployeeManagerFrame extends JFrame {
     });
   }
 
-  private void addEmployee() {
-    String maNV = textField1.getText();
-    String hoTen = textField2.getText();
-    String que = textField3.getText();
+  private void searchEmployee() {
+    // Set column names
+    String[] columnNames = {"Mã nhân viên", "Họ tên", "Quê quán", "Hệ số lương"};
 
-    try {
-      float heSoLuong = Float.parseFloat(textField4.getText());
-      DatabaseUtils.addEmployee(maNV, hoTen, que, heSoLuong);
-    } catch (Exception e) {
-      JOptionPane.showMessageDialog(null, "Có lỗi xảy ra: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
-      return;
+    // Get data from database or other data source
+    ArrayList<Employee> employees = new ArrayList<>();
+
+    if (byHoTenRadioButton.isSelected()) {
+      employees = DatabaseUtils.getEmployeesByHoTen(textField1.getText());
+    }
+    if (byQueQuanRadioButton.isSelected()) {
+      employees = DatabaseUtils.getEmployeesByQueQuan(textField2.getText());
+    }
+    if (byHeSoLuongRadioButton.isSelected()) {
+      try {
+        float heSoLuongFrom = Float.parseFloat(textField3.getText());
+        float heSoLuongTo = Float.parseFloat(textField4.getText());
+        employees = DatabaseUtils.getEmployeesByHeSoLuong(heSoLuongFrom, heSoLuongTo);
+      } catch (Exception e) {
+        JOptionPane.showMessageDialog(null, "Có lỗi xảy ra: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+        return;
+      }
     }
 
-    initTable();
-    clearFields();
-  }
+    // Create data array with the same size as employees ArrayList
+    Object[][] data = new Object[employees.size()][columnNames.length];
 
-  private void updateEmployee() {
-    String maNV = textField1.getText();
-    String hoTen = textField2.getText();
-    String que = textField3.getText();
-
-    try {
-      float heSoLuong = Float.parseFloat(textField4.getText());
-      DatabaseUtils.updateEmployee(maNV, hoTen, que, heSoLuong);
-    } catch (Exception e) {
-      JOptionPane.showMessageDialog(null, "Có lỗi xảy ra: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
-      return;
+    // Populate data array with employee data
+    for (int i = 0; i < employees.size(); i++) {
+      Employee employee = employees.get(i);
+      data[i][0] = employee.getMaNV();
+      data[i][1] = employee.getHoTen();
+      data[i][2] = employee.getQue();
+      data[i][3] = String.valueOf(employee.getHeSoLuong());
     }
 
-    initTable();
-    clearFields();
-  }
+    // Create a new table model with the column names and data
+    DefaultTableModel model = new DefaultTableModel(data, columnNames) {
+      @Override
+      public boolean isCellEditable(int row, int column) {
+        return false;
+      }
+    };
 
-  private void deleteEmployee() {
-    String maNV = textField1.getText();
-
-    DatabaseUtils.deleteEmployee(maNV);
-
-    initTable();
-    clearFields();
+    // Set the new table model to the table
+    table1.setModel(model);
   }
 
   private void clearFields() {

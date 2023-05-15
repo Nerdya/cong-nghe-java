@@ -10,6 +10,8 @@ public class Employee {
   private String que;
   private float heSoLuong;
 
+  public Employee() {}
+
   public Employee(String maNV, String hoTen, String que, float heSoLuong) {
     this.maNV = maNV;
     this.hoTen = hoTen;

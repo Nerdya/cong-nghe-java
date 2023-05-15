@@ -46,6 +46,79 @@ public class DatabaseUtils {
     return employees;
   }
 
+  public static ArrayList<Employee> getEmployeesByHoTen(String hoTen) {
+    ArrayList<Employee> employees = new ArrayList<>();
+    String query = "SELECT * FROM nhanvien WHERE Hoten LIKE ?";
+
+    try (Connection connection = getConnection();
+        PreparedStatement statement = connection.prepareStatement(query)) {
+      statement.setString(1, "%" + hoTen + "%");
+      ResultSet resultSet = statement.executeQuery();
+
+      while (resultSet.next()) {
+        Employee employee = new Employee(
+            resultSet.getString("Manv"),
+            resultSet.getString("Hoten"),
+            resultSet.getString("Que"),
+            resultSet.getFloat("Hesoluong")
+        );
+        employees.add(employee);
+      }
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
+    return employees;
+  }
+
+  public static ArrayList<Employee> getEmployeesByQueQuan(String que) {
+    ArrayList<Employee> employees = new ArrayList<>();
+    String query = "SELECT * FROM nhanvien WHERE Que LIKE ?";
+
+    try (Connection connection = getConnection();
+        PreparedStatement statement = connection.prepareStatement(query)) {
+      statement.setString(1, "%" + que + "%");
+      ResultSet resultSet = statement.executeQuery();
+
+      while (resultSet.next()) {
+        Employee employee = new Employee(
+            resultSet.getString("Manv"),
+            resultSet.getString("Hoten"),
+            resultSet.getString("Que"),
+            resultSet.getFloat("Hesoluong")
+        );
+        employees.add(employee);
+      }
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
+    return employees;
+  }
+
+  public static ArrayList<Employee> getEmployeesByHeSoLuong(float from, float to) {
+    ArrayList<Employee> employees = new ArrayList<>();
+    String query = "SELECT * FROM nhanvien WHERE Hesoluong BETWEEN ? AND ?";
+
+    try (Connection connection = getConnection();
+        PreparedStatement statement = connection.prepareStatement(query)) {
+      statement.setFloat(1, from);
+      statement.setFloat(2, to);
+      ResultSet resultSet = statement.executeQuery();
+
+      while (resultSet.next()) {
+        Employee employee = new Employee(
+            resultSet.getString("Manv"),
+            resultSet.getString("Hoten"),
+            resultSet.getString("Que"),
+            resultSet.getFloat("Hesoluong")
+        );
+        employees.add(employee);
+      }
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
+    return employees;
+  }
+
   public static void addEmployee(String maNV, String hoTen, String que, float heSoLuong) {
     String query = "INSERT INTO nhanvien (Manv, Hoten, Que, Hesoluong) VALUES (?, ?, ?, ?)";
 
@@ -66,10 +139,10 @@ public class DatabaseUtils {
 
     try (Connection connection = getConnection();
         PreparedStatement statement = connection.prepareStatement(query)) {
-      statement.setString(1, maNV);
-      statement.setString(2, hoTen);
-      statement.setString(3, que);
-      statement.setFloat(4, heSoLuong);
+      statement.setString(1, hoTen);
+      statement.setString(2, que);
+      statement.setFloat(3, heSoLuong);
+      statement.setString(4, maNV);
       statement.executeUpdate();
     } catch (SQLException e) {
       e.printStackTrace();
